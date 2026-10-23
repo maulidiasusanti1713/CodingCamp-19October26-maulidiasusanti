@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-Do Life Dashboard</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/app.js" defer></script>
+  </head>
+  <body>
+
+    <!-- Storage error banner (shown by JS when localStorage write fails) -->
+    <div id="storage-error-banner" role="alert" aria-live="polite" hidden></div>
+
+    <!-- Browser support banner (shown by JS when a required API is missing) -->
+    <div id="browser-support-banner" role="alert" aria-live="assertive" hidden></div>
+
+    <!-- =========================================================
+         Greeting Widget
+         GreetingWidget.init() queries:
+           #greeting-text   — greeting string
+           #time-display    — HH:MM clock
+           #date-display    — DayOfWeek, Month Day, Year
+    ========================================================== -->
+    <header id="greeting-widget">
+      <p id="greeting-text" aria-live="polite"></p>
+      <p id="time-display"  aria-live="off"></p>
+      <p id="date-display"  aria-live="off"></p>
+    </header>
+
+    <main>
+
+      <!-- =========================================================
+           Focus Timer
+           FocusTimer.init() queries:
+             [data-timer-display]  — MM:SS countdown display
+             [data-timer-start]    — Start button
+             [data-timer-stop]     — Stop (pause) button
+             [data-timer-reset]    — Reset button
+      ========================================================== -->
+      <section id="focus-timer" aria-labelledby="focus-timer-heading">
+        <h2 id="focus-timer-heading">Focus Timer</h2>
+
+        <div class="timer__display-wrapper">
+          <output data-timer-display aria-label="Time remaining" aria-live="off">25:00</output>
+        </div>
+
+        <div class="timer__controls" role="group" aria-label="Timer controls">
+          <button type="button" data-timer-start aria-label="Start timer">Start</button>
+          <button type="button" data-timer-stop  aria-label="Pause timer">Stop</button>
+          <button type="button" data-timer-reset aria-label="Reset timer to 25 minutes">Reset</button>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           Task List
+           TaskList.init() queries:
+             [data-task-list]   — <ul> container for task items
+             [data-task-input]  — text input for new task name
+             [data-task-add]    — Add button
+             [data-task-alert]  — <span role="alert"> for validation messages
+      ========================================================== -->
+      <section id="task-list" aria-labelledby="task-list-heading">
+        <h2 id="task-list-heading">Tasks</h2>
+
+        <div class="task__add-form">
+          <label for="task-name-input" class="visually-hidden">New task name</label>
+          <input
+            type="text"
+            id="task-name-input"
+            data-task-input
+            placeholder="Add a new task…"
+            maxlength="200"
+            autocomplete="off"
+            aria-describedby="task-add-alert"
+          />
+          <span
+            id="task-add-alert"
+            data-task-alert
+            role="alert"
+            aria-live="polite"
+            hidden
+          ></span>
+          <button type="button" data-task-add aria-label="Add task">Add</button>
+        </div>
+
+        <ul data-task-list aria-label="Task list" aria-live="polite"></ul>
+      </section>
+
+      <!-- =========================================================
+           Quick Links Panel
+           QuickLinks.init() queries:
+             [data-links-list]        — container for link items
+             [data-link-label-input]  — text input for new link label
+             [data-link-url-input]    — url input for new link URL
+             [data-link-add]          — Add button
+             [data-link-label-alert]  — <span role="alert"> for label validation
+             [data-link-url-alert]    — <span role="alert"> for URL validation
+             [data-link-cap-alert]    — <span role="alert"> for cap-reached message
+      ========================================================== -->
+      <section id="quick-links" aria-labelledby="quick-links-heading">
+        <h2 id="quick-links-heading">Quick Links</h2>
+
+        <div class="link__add-form">
+          <div class="link__field-group">
+            <label for="link-label-input">Label</label>
+            <input
+              type="text"
+              id="link-label-input"
+              data-link-label-input
+              placeholder="e.g. GitHub"
+              maxlength="50"
+              autocomplete="off"
+              aria-describedby="link-label-alert"
+            />
+            <span
+              id="link-label-alert"
+              data-link-label-alert
+              role="alert"
+              aria-live="polite"
+              hidden
+            ></span>
+          </div>
+
+          <div class="link__field-group">
+            <label for="link-url-input">URL</label>
+            <input
+              type="url"
+              id="link-url-input"
+              data-link-url-input
+              placeholder="https://example.com"
+              autocomplete="off"
+              aria-describedby="link-url-alert"
+            />
+            <span
+              id="link-url-alert"
+              data-link-url-alert
+              role="alert"
+              aria-live="polite"
+              hidden
+            ></span>
+          </div>
+
+          <button type="button" data-link-add aria-label="Add quick link">Add Link</button>
+        </div>
+
+        <span
+          data-link-cap-alert
+          role="alert"
+          aria-live="polite"
+          hidden
+        ></span>
+
+        <ul data-links-list aria-label="Quick links" aria-live="polite"></ul>
+      </section>
+
+    </main>
+
+  </body>
+</html>

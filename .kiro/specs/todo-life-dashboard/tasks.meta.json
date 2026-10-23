@@ -1,0 +1,167 @@
+{
+  "pbtResults": {},
+  "executionHistory": {
+    "1. Set up project structure and test tooling": [
+      {
+        "executionId": "0cce0b2d-97fa-40a7-98bb-75fcffef5933",
+        "chatSessionId": "sess_f36521aa-b168-47a7-9f75-75a783f88493",
+        "timestamp": 1792705748264
+      }
+    ],
+    "2.1 Write the `StorageService` IIFE module in `js/app.js`": [
+      {
+        "executionId": "5cb61ff3-c5ea-43cc-9446-6fc1dd0befa8",
+        "chatSessionId": "sess_443dd84e-21d9-4777-b4ac-addfe7779e82",
+        "timestamp": 1792706276624
+      },
+      {
+        "executionId": "5cb61ff3-c5ea-43cc-9446-6fc1dd0befa8",
+        "chatSessionId": "sess_443dd84e-21d9-4777-b4ac-addfe7779e82",
+        "timestamp": 1792706327438
+      }
+    ],
+    "2. Implement StorageService": [
+      {
+        "executionId": "5cb61ff3-c5ea-43cc-9446-6fc1dd0befa8",
+        "chatSessionId": "sess_443dd84e-21d9-4777-b4ac-addfe7779e82",
+        "timestamp": 1792706328089
+      }
+    ],
+    "3.1 Write the `GreetingWidget` IIFE module in `js/app.js`": [
+      {
+        "executionId": "602f0aad-f709-46eb-9b1a-3835d3ed3423",
+        "chatSessionId": "sess_3fcf56f6-4545-4e7b-bad2-817aa436381b",
+        "timestamp": 1792706363031
+      },
+      {
+        "executionId": "602f0aad-f709-46eb-9b1a-3835d3ed3423",
+        "chatSessionId": "sess_3fcf56f6-4545-4e7b-bad2-817aa436381b",
+        "timestamp": 1792706409844
+      }
+    ],
+    "3. Implement GreetingWidget": [
+      {
+        "executionId": "602f0aad-f709-46eb-9b1a-3835d3ed3423",
+        "chatSessionId": "sess_3fcf56f6-4545-4e7b-bad2-817aa436381b",
+        "timestamp": 1792706410405
+      }
+    ],
+    "5.1 Write the `FocusTimer` IIFE module in `js/app.js`": [
+      {
+        "executionId": "c870786f-c99f-4ffd-8033-5ceffd6458cb",
+        "chatSessionId": "sess_0fd9ce2f-9477-4215-950d-44b7a94282aa",
+        "timestamp": 1792706420722
+      },
+      {
+        "executionId": "c870786f-c99f-4ffd-8033-5ceffd6458cb",
+        "chatSessionId": "sess_0fd9ce2f-9477-4215-950d-44b7a94282aa",
+        "timestamp": 1792706559530
+      }
+    ],
+    "5. Implement FocusTimer": [
+      {
+        "executionId": "c870786f-c99f-4ffd-8033-5ceffd6458cb",
+        "chatSessionId": "sess_0fd9ce2f-9477-4215-950d-44b7a94282aa",
+        "timestamp": 1792706560038
+      }
+    ],
+    "6.1 Write the `TaskList` IIFE module in `js/app.js`": [
+      {
+        "executionId": "6f91a1ea-652f-4a37-9a44-29f53421e0ac",
+        "chatSessionId": "sess_c46801d3-eaf6-4bca-b903-4c1aeced4a97",
+        "timestamp": 1792706570464
+      },
+      {
+        "executionId": "6f91a1ea-652f-4a37-9a44-29f53421e0ac",
+        "chatSessionId": "sess_c46801d3-eaf6-4bca-b903-4c1aeced4a97",
+        "timestamp": 1792706668304
+      }
+    ],
+    "6. Implement TaskList": [
+      {
+        "executionId": "6f91a1ea-652f-4a37-9a44-29f53421e0ac",
+        "chatSessionId": "sess_c46801d3-eaf6-4bca-b903-4c1aeced4a97",
+        "timestamp": 1792706668704
+      }
+    ],
+    "8.1 Write the `QuickLinks` IIFE module in `js/app.js`": [
+      {
+        "executionId": "d5df8103-16ea-4255-aa97-e7a2b364ae14",
+        "chatSessionId": "sess_77c0782d-f689-4028-ba18-2e3718dcffd6",
+        "timestamp": 1792706678804
+      },
+      {
+        "executionId": "d5df8103-16ea-4255-aa97-e7a2b364ae14",
+        "chatSessionId": "sess_77c0782d-f689-4028-ba18-2e3718dcffd6",
+        "timestamp": 1792706898655
+      }
+    ],
+    "8. Implement QuickLinks": [
+      {
+        "executionId": "d5df8103-16ea-4255-aa97-e7a2b364ae14",
+        "chatSessionId": "sess_77c0782d-f689-4028-ba18-2e3718dcffd6",
+        "timestamp": 1792706899239
+      }
+    ],
+    "10.1 Write the `index.html` skeleton": [
+      {
+        "executionId": "a7898ac5-3731-415b-bd48-a9e6b892d30c",
+        "chatSessionId": "sess_666887ad-cbf9-44aa-ade7-92e6631b68f5",
+        "timestamp": 1792706908356
+      },
+      {
+        "executionId": "a7898ac5-3731-415b-bd48-a9e6b892d30c",
+        "chatSessionId": "sess_666887ad-cbf9-44aa-ade7-92e6631b68f5",
+        "timestamp": 1792707064688
+      }
+    ],
+    "10. Build `index.html` and `css/styles.css`": [
+      {
+        "executionId": "3b1ef8fc-d0e6-43e4-af2c-6ecc75d7f087",
+        "chatSessionId": "sess_b4dcaa85-951f-4464-a05d-81468af466b7",
+        "timestamp": 1792707093472
+      },
+      {
+        "executionId": "3b1ef8fc-d0e6-43e4-af2c-6ecc75d7f087",
+        "chatSessionId": "sess_b4dcaa85-951f-4464-a05d-81468af466b7",
+        "timestamp": 1792707232926
+      }
+    ],
+    "11.1 Write the `DOMContentLoaded` bootstrap in `js/app.js`": [
+      {
+        "executionId": "690e3047-d777-4a47-afb9-1ddabcec39c0",
+        "chatSessionId": "sess_5861175b-2028-4b7b-b167-fac689c41b33",
+        "timestamp": 1792707244447
+      },
+      {
+        "executionId": "690e3047-d777-4a47-afb9-1ddabcec39c0",
+        "chatSessionId": "sess_5861175b-2028-4b7b-b167-fac689c41b33",
+        "timestamp": 1792707308839
+      }
+    ],
+    "11. Wire modules together in `js/app.js`": [
+      {
+        "executionId": "690e3047-d777-4a47-afb9-1ddabcec39c0",
+        "chatSessionId": "sess_5861175b-2028-4b7b-b167-fac689c41b33",
+        "timestamp": 1792707309465
+      }
+    ],
+    "12. Final checkpoint — full test suite": [
+      {
+        "executionId": "e44f1b9e-084b-4cbd-9001-774ab6612596",
+        "chatSessionId": "sess_988ddc46-6b82-49d2-b43d-c5c0d5e8129f",
+        "timestamp": 1792746021541
+      },
+      {
+        "executionId": "5715e745-4e8b-43c9-8302-cec219fbe168",
+        "chatSessionId": "sess_55888864-afa8-4838-b16b-98cff4e2a079",
+        "timestamp": 1792746499876
+      },
+      {
+        "executionId": "5715e745-4e8b-43c9-8302-cec219fbe168",
+        "chatSessionId": "sess_55888864-afa8-4838-b16b-98cff4e2a079",
+        "timestamp": 1792746918798
+      }
+    ]
+  }
+}
